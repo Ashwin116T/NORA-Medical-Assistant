@@ -1,0 +1,25 @@
+# App and UI
+streamlit
+
+# LLM and Embeddings
+torch
+transformers
+llama-cpp-python
+sentence-transformers
+huggingface-hub
+
+# Whisper (STT)
+openai-whisper
+librosa
+
+# LangChain and Vector DB
+langchain
+langchain-community
+chromadb
+
+# Document and PDF handling
+pypdfium2
+
+# General
+PyYAML
+numpy

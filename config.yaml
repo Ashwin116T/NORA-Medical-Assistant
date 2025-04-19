@@ -1,0 +1,12 @@
+
+embeddings_path: "BAAI/bge-large-en-v1.5"
+ollama:
+  model_name: "llama3:latest"  # Or any Ollama model you want
+  #model_name: "deepseek-r1:latest"  # Or any Ollama model you want
+  base_url: "http://localhost:11434"
+model_config:
+  temperature: 0.4
+  num_predict: 512
+model_type: "llama"  # Change to "mistral" if using Mistral-based architecture
+
+chat_history_path: "./chat_sessions/"
